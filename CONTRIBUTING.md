@@ -20,6 +20,18 @@ npm install
 npm run dev
 ```
 
+Run development mode with service worker:
+
+```sh
+SW=true npm run dev
+```
+
+Run development mode with blurred social images (computationally expensive):
+
+```sh
+BLUR=true npm run dev
+```
+
 ## Formatting
 
 ```sh
@@ -42,6 +54,30 @@ npm run lint:format
 
 ```sh
 npm run build
+```
+
+Run production build with service worker:
+
+```sh
+SW=true npm run build
+```
+
+Run production build with blurred social images (computationally expensive):
+
+```sh
+BLUR=true npm run build
+```
+
+Run production build with service worker:
+
+```sh
+SW=true npm run build
+```
+
+Run production build with blurred social images (computationally expensive):
+
+```sh
+BLUR=true npm run build
 ```
 
 ## Edit a flag
